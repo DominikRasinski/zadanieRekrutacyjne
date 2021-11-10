@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 3000px;
+}
+
+/* Navbar */
+
+.navbar.navbar-inverse.navbar-fixed-top{
+    position: sticky;
+}

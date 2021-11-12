@@ -27,7 +27,7 @@
       <p>Kontakt</p>
     </div>
   </div>
-  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <nav class="navbar image-utilities navbar-inverse navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -36,7 +36,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Project name</a>
+        <a class="navbar-brand" href="#"><img src="./assets/image/logo.png" alt="logo"></a>
       </div>
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
@@ -46,32 +46,27 @@
         </ul>
       </div><!--/.nav-collapse -->
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">.col-md-6</div>
-        <div class="col-md-3">.col-md-3</div>
-        <div class="col-md-3">.col-md-3</div>
-      </div>
-    </div>
   </nav>
-  <div class="container header-main">
-    <div class="col-md-2">
-      <p>Baza wiedzy</p>
-    </div>
-    <div class="col-md-2">
-      <p>Przegląd sprzętu</p>
-    </div>
-    <div class="col-md-2">
-      <p>Dokumentacja</p>
-    </div>
-    <div class="col-md-2">
-      <p>Akty prawne</p>
-    </div>
-    <div class="col-md-2">
-      <p>Lista wydań</p>
-    </div>
-    <div class="col-md-2">
-      <p>FB</p>
+  <div class="container-fluid header-main">
+    <div class="container">
+      <div class="col-md-2">
+        <p>Baza wiedzy</p>
+      </div>
+      <div class="col-md-2">
+        <p>Przegląd sprzętu</p>
+      </div>
+      <div class="col-md-2">
+        <p>Dokumentacja</p>
+      </div>
+      <div class="col-md-2">
+        <p>Akty prawne</p>
+      </div>
+      <div class="col-md-2">
+        <p>Lista wydań</p>
+      </div>
+      <div class="col-md-2">
+        <img src="./assets/image/fb-logo.svg" alt="Facebook logo">
+      </div>
     </div>
   </div>
   <div class="main container">
@@ -85,15 +80,20 @@
         <h3>Skutki w VAT sprzedaży samochodu w trakcie zawieszenia działalności gospodarczej spółki cywilnej oraz innych ważne żeby tytuł był w trzech wierszach</h3>
       </div>
       <div class="content-header__space-bar">
-        <span>Here goes image!</span>
-        <span>Imię Nazwisko</span>
-        <span>|   Opublikowane: 20 października 2015</span>
-        <span>icon</span>
-        <span>Dodaj do Mojej strefy »</span>
+        <div class="media-left media-middle">
+          <a href="#">
+            <img class="media-object" src="./assets/image/first-person-image.png" alt="Imie Nazwisko">
+          </a>
+        </div>
+        <div class="media-body media-body__first">
+          <p><span>Imię Nazwisko</span><span>   |   Opublikowane: 20 października 2015</span></p>
+        </div>
       </div>
       <div class="content">
-        <div class="image"></div>
-        <div class="text"></div>
+          <div class="image">
+            <img src="./assets/image/content-first-image.png" alt="Man is holding a pen">
+            <span>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis.</span>
+          </div>
       </div>
       <div class="content__text">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque ea architecto enim excepturi qui natus porro dolores quasi suscipit eveniet voluptate praesentium ullam aperiam at animi eius cupiditate optio, consectetur neque vitae possimus atque similique. Repellat similique iure molestiae natus ipsam minus, necessitatibus in praesentium?
@@ -101,7 +101,7 @@
       <div class="content__question media">
         <div class="media-left media-middle">
           <a href="#">
-            <img class="media-object" src="..." alt="...">
+            <img class="media-object" src="./assets/image/question-mark.svg" alt="Question mark">
           </a>
         </div>
         <div class="media-body">
@@ -133,7 +133,7 @@
       <div class="content__important media">
         <div class="media-left media-middle">
           <a href="#">
-            <img class="media-object" src="..." alt="...">
+            <img class="media-object" src="./assets/image/important-mark.svg" alt="Important mark">
           </a>
         </div>
         <div class="media-body">
@@ -147,7 +147,7 @@
       <div class="content__example media">
         <div class="media-left media-middle">
           <a href="#">
-            <img class="media-object" src="..." alt="...">
+            <img class="media-object" src="./assets/image/light-ball.svg" alt="Light ball">
           </a>
         </div>
         <div class="media-body">
@@ -168,7 +168,7 @@
       <div class="content__basic-rules media">
         <div class="media-left media-middle">
           <a href="#">
-            <img class="media-object" src="..." alt="...">
+            <img class="media-object" src="./assets/image/paragraph.svg" alt="Paragraph mark">
           </a>
         </div>
         <div class="media-body">
@@ -186,7 +186,7 @@
       <div class="content__space-bar-bottom">
         <div class="media-left media-middle">
           <a href="#">
-            <img class="media-object" src="..." alt="...">
+            <img class="media-object" src="./assets/image/second-content-image.png" alt="Womane with glass">
           </a>
         </div>
         <div class="media-body">
@@ -218,7 +218,7 @@
       <div class="content__similar-article-first">
         <div class="media-left media-middle">
           <a href="#">
-            <img class="media-object" src="..." alt="...">
+            <img class="media-object" src="./assets/image/article-photo.png" alt="Article photo">
           </a>
         </div>
         <div class="media-body">
@@ -231,7 +231,7 @@
       <div class="content__similar-article-second">
         <div class="media-left media-middle">
           <a href="#">
-            <img class="media-object" src="..." alt="...">
+            <img class="media-object" src="./assets/image/article-photo.png" alt="Article photo">
           </a>
         </div>
         <div class="media-body">
@@ -244,7 +244,7 @@
       <div class="content__similar-article-third">
         <div class="media-left media-middle">
           <a href="#">
-            <img class="media-object" src="..." alt="...">
+            <img class="media-object" src="./assets/image/article-photo.png" alt="Article photo">
           </a>
         </div>
         <div class="media-body">
@@ -273,7 +273,7 @@
       <div class="main-sidebar__last-number">
         <h4>Ostatni numer</h4>
         <div class="underline"></div>
-        <p>Here must be image!</p>
+        <img src="./assets/image/last-number.png" alt="Last article">
         <div class="main-sidebar__last-number-info">
           <h4>PAŹDZIERNIK 2017 już w sprzedaży</h4>
           <button>Archiwalne numery</button>
@@ -283,7 +283,14 @@
       <div class="main-sidebar__hot-topics">
         <h4>Top tematy tygodnia</h4>
         <div class="underline"></div>
-        <p>here must be image!</p>
+        <div class="hero-image image-utilities">
+          <div class="hero-shadow">
+            <div class="hero-text">
+              <h4>Top Temat</h4>
+              <p>Nowa informacja dla pracowników - przywileje spraw rodzicielskich, dotykają nie jedną rodzinę.  »</p>
+            </div>
+          </div>
+        </div>
         <ul>
           <li>Procedura obniżenia wymiaru etatu nauczyciela zatrudnionego w pełnym wymiarze godzi »</li>
           <li>Procedura obniżenia wymiaru etatu nauczyciela zatrudnionego w pełnym wymiarze godzi »</li>
@@ -292,22 +299,34 @@
         <p>Czytaj więcej tematów »</p>
       </div>
       <div class="main-sidebar__newslatter">
-        <h4>Zapisz się na bezpłatny newslatter</h4>
-        <input type="text" name="" id=""><button>Zapisz się</button>
-        <div>
-          <input type="checkbox" name="" id=""><label>Znam i akceptruję regulamin i coś tam regulamin</label>
-        </div>
-        <div>
-          <input type="checkbox" name="" id=""><label>Wyrażam zgodnę na przetwarzenie regulamin rozwiń</label>
-        </div>
-        <div class="newslatter-image">
-          <p>here must be image!</p>
-          <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut mollitia, totam error necessitatibus facere recusandae?</p>
+        <div class="newslatter-hero-image image-utilities">
+          <div class="newslatter-hero-text">
+            <h4>Zapisz się na bezpłatny newslatter</h4>
+            <input type="text" name="" id=""><button>Zapisz się</button>
+            <div>
+              <input type="checkbox" name="" id=""><label>Znam i akceptruję regulamin i coś tam regulamin</label>
+            </div>
+            <div>
+              <input type="checkbox" name="" id=""><label>Wyrażam zgodnę na przetwarzenie regulamin rozwiń</label>
+            </div>
+            <div class="newslatter-image">
+              <div class="media">
+                <div class="media-left media-middle">
+                  <a href="#">
+                    <img class="media-object" src="./assets/image/image-in-article-section.png" alt="10 spraw">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading">Lorem ipsum dolor sit amet enim. Etiam ullamcorper.</h4>
+                  <p>Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="main-sidebar__facebook">
-        <p>Here goes image!</p>
+        <img src="./assets/image/fb-sidebar.png" alt="Facebook">
       </div>
     </div>
   </div>

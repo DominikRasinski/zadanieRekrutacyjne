@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 23" width="11" height="23">
+	<title>top</title>
+	<defs>
+		<image  width="11" height="23" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAXCAMAAADqZkX0AAAAAXNSR0IB2cksfwAAALRQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////GBRnvAAAADx0Uk5TAAQqV2tub1IPj/L+/8ECkMIo5MVE/daJiGVFVj9KGCNfJSYcpvb4+/mur5y5gWqeujs2PUxIT4KEg4cnF84smAAAAIJJREFUeJxjYAACRiZmFlY2dhCTg5OLm4eHhxfI5OPnAQMBIFtQCMIWBrJFRIEMMXEJSSBbCqRYmgEMZEBsWRBLTl4BxGZRVFJmUFFVA2lU1+DWZNDigQFtBh04W5dBTx/MM9DWNwTqNgLpNYaYCTbfhHZsU5C9ZhC2vLmFpZU1kAEAMV8OQ7529TcAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="top">
+		<g id="menu">
+			<use id="Warstwa 15" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>

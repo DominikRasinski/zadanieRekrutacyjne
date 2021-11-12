@@ -1,0 +1,18 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 23" width="12" height="23">
+	<title>artykul</title>
+	<defs>
+		<image  width="8" height="19" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAATCAMAAACawLzhAAAAAXNSR0IB2cksfwAAANVQTFRFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADmVSEQAAAEd0Uk5TAAJXobKQLmjs/8UrRvPxzp10Qb+x3RAthIWI/aUHItTEUB7S9W17tKL3ruAVg2WL9vrV+OgBfESk3McGCK/Xt2mHgjTt7grEYlRdAAAAjElEQVR4nBWN1QKCABAE13YVlFYxMDAQ7G7F+P9P8rineZjZA1LpTDaXB1AokiyVoahkhaxCo6obJgmLtoNavQGXzZbRFrfjidPtAf2BRPSHGJHjSUAfU4YRZlJJPncWAsqSq/WGW+z0ILH3MnA4nsgzLlfZuonj3h8RngIv0optgeSFnAa8zc83jH9/kzoNgYZX5zoAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="artykul">
+		<g id="Container - warstwy">
+			<g id="Content">
+				<g id="Podstawa prawna">
+					<use id="Warstwa 38" href="#img1" x="2" y="2" />
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

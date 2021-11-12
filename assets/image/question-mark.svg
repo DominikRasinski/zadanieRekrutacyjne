@@ -1,0 +1,20 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 45" width="48" height="45">
+	<title>artykul</title>
+	<defs>
+		<image  width="48" height="45" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAtCAMAAADflBjwAAAAAXNSR0IB2cksfwAAAblQTFRFpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWl6Lv+1wAAAJN0Uk5TAANUrdfa2bdiCgaJ/+nn6KcRXtxRIiFCy4HD+UUr8vPPE7z8+MgStfbKByg/UE8+JWi53/T725odD9YOzepgAlxfQTQxSoxdlHc95W5YIOxN/UMBqdCOUjriMglxaW96dpCNFC0sGOsWyfeodFr+xDjwmVlVVlMuW1eKwhlji7iHbX+CDLQXgynAvxCSYe481WtGHqQiEAAAAZhJREFUeJzF1FdPAkEUBeBrQRAuawUVRFRQUewFe9e1Yq9Ywd6wgWLD3ru/2MGgL+zqjInxPO1kzpc7s9ksQFBwSKgkjCISiVQWDiBXICq5CIpwHGJkFERjTKxKraKIWh0Xjwmg0SYCdXRJYaBPTqEHkGoAY1o6A8hAMGWyTJD+F8gyZ+fk5uXTAnlBYVGxoURvKS2jA+UV6I+mkm5CFRqrOYNP1FCB2rr6hsam5kwCeCrgTwsBrSygjXFCewcBnfTAqiR9rosWBLUZSb+7J2BDDNT3kn5oX+CGCOgfIP1Bs8BJxSYMETAs0BcFI6NavY0FQO1YllBfFNjGJybzWMCU0GfxHZgmwP63wGQyOVjAzKxubp4FiOY3gPlXuWBZZABLy7CCq/T9Nec6bGzi1rbLLRjrzsxHb9ez51u69pcNboBYC4rnoMkH7J9L5UQ/WR4eKXivYBRSXHCRBo/HJ14vz5+qfjqz/MzoPL8AB3qor5lbhJdX1yijfzE3txh/xwLg/gHR+cgAAGRPTBNInl9e2QC43r4e3wHxwGfm05GkDAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="artykul">
+		<g id="Container - warstwy">
+			<g id="Content">
+				<g id="Pytanie">
+					<g id="Normalny tekst kopia">
+						<use id="Warstwa 41" href="#img1" x="0" y="0" />
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

@@ -27,10 +27,10 @@
       <p>Kontakt</p>
     </div>
   </div>
-  <nav class="navbar image-utilities navbar-inverse navbar-fixed-top">
+  <nav class="navbar image-utilities navbar-default navbar-static-top">
     <div class="container">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -38,13 +38,15 @@
         </button>
         <a class="navbar-brand" href="#"><img src="./assets/image/logo.png" alt="logo"></a>
       </div>
-      <div id="navbar" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div><!--/.nav-collapse -->
+      <div class="collapse navbar-collapse navbar-inputs" id="bs-example-navbar-collapse-1">
+        <form class="navbar-form navbar-left">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Szukaj w serwisie"><button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+          </div>
+          <button class="btn btn-default">Zaloguj się</button>
+          <button class="btn btn-default">Uzyskaj dostęp</button>
+        </form>
+      </div><!-- /.navbar-collapse -->
     </div>
   </nav>
   <div class="container-fluid header-main">
@@ -64,22 +66,22 @@
       <div class="col-md-2">
         <p>Lista wydań</p>
       </div>
-      <div class="col-md-2">
+      <div class="col-md-2 facebook-icon">
         <img src="./assets/image/fb-logo.svg" alt="Facebook logo">
       </div>
     </div>
   </div>
   <div class="main container">
-    <ol class="breadcrumb">
-      <li><a href="#">Geodezja w praktyce</a></li>
-      <li><a href="#">Baza wiedzy</a></li>
-      <li class="active">nazwa artykułu</li>
-    </ol>
     <div class="main-content col-md-8">
+      <ol class="breadcrumb">
+        <li><a href="#">Geodezja w praktyce</a></li>
+        <li><a href="#">Baza wiedzy</a></li>
+        <li class="active">nazwa artykułu</li>
+      </ol>
       <div class="content-header">
         <h3>Skutki w VAT sprzedaży samochodu w trakcie zawieszenia działalności gospodarczej spółki cywilnej oraz innych ważne żeby tytuł był w trzech wierszach</h3>
       </div>
-      <div class="content-header__space-bar">
+      <div class="content-header__space-bar border-utilities">
         <div class="media-left media-middle">
           <a href="#">
             <img class="media-object" src="./assets/image/first-person-image.png" alt="Imie Nazwisko">
@@ -98,14 +100,14 @@
       <div class="content__text">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque ea architecto enim excepturi qui natus porro dolores quasi suscipit eveniet voluptate praesentium ullam aperiam at animi eius cupiditate optio, consectetur neque vitae possimus atque similique. Repellat similique iure molestiae natus ipsam minus, necessitatibus in praesentium?
       </div>
-      <div class="content__question media">
-        <div class="media-left media-middle">
+      <div class="content__question media border-utilities">
+        <div class="media-left media-top">
           <a href="#">
             <img class="media-object" src="./assets/image/question-mark.svg" alt="Question mark">
           </a>
         </div>
         <div class="media-body">
-          <h4 class="media-heading">Middle aligned media</h4>
+          <h4 class="media-heading text-bold">Pytanie</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto perspiciatis nihil nulla consectetur vitae! Similique omnis est tempora veritatis totam assumenda repellat porro iure saepe, nobis laudantium expedita voluptate rerum?</p>
         </div>
       </div>
@@ -118,7 +120,7 @@
           <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt assumenda commodi similique debitis doloremque qui aliquam.</li>
           <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
         </ul>
-        <p>Lorem ipsum dolor sit.</p>
+        <p class="text-bold">Phasellus fermentum in, dolor. </p>
         <ol>
           <li>Pellentesque facilisis. Nulla imperdiet sit amet magna. 
             <ol>
@@ -130,28 +132,28 @@
           <li>Aliquam erat ac ipsum. Integer aliquam purus.</li>
         </ol>        
       </div>
-      <div class="content__important media">
-        <div class="media-left media-middle">
+      <div class="content__important media border-utilities">
+        <div class="media-left media-top">
           <a href="#">
             <img class="media-object" src="./assets/image/important-mark.svg" alt="Important mark">
           </a>
         </div>
         <div class="media-body">
-          <h4 class="media-heading">Middle aligned media</h4>
+          <h4 class="media-heading text-bold">Ważne</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat in blanditiis dolorem excepturi aperiam ipsam. Exercitationem eos animi, facere eaque, nulla, sint nisi quas laboriosam eius aspernatur corporis quo dolorem!</p>
         </div>
       </div>
       <div class="content__under-important-text">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione magni tempore, neque eaque deleniti assumenda repellendus deserunt nihil suscipit non. Doloribus nam placeat molestias voluptatum quod quisquam mollitia nobis enim. Exercitationem expedita perferendis cum consectetur in quam eius quia. Aliquid.</p>
       </div>
-      <div class="content__example media">
-        <div class="media-left media-middle">
+      <div class="content__example media border-utilities">
+        <div class="media-left media-top">
           <a href="#">
             <img class="media-object" src="./assets/image/light-ball.svg" alt="Light ball">
           </a>
         </div>
         <div class="media-body">
-          <h4 class="media-heading">Middle aligned media</h4>
+          <h4 class="media-heading text-bold">Przykład</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis dolorem veniam provident adipisci quae, nam recusandae sit molestiae, fugiat dicta nemo. Nesciunt repellat blanditiis est architecto saepe ea natus assumenda.</p>
         </div>
       </div>
@@ -159,14 +161,14 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic asperiores quibusdam cumque incidunt assumenda. Dignissimos, eos porro placeat harum excepturi rem. Illo accusantium officiis tempora unde dignissimos quod ad quia fugiat ab, minus quos odio sunt saepe? Odit facere repellat excepturi porro incidunt sed, asperiores aliquam ut dolorem ipsam obcaecati?</p>
       </div>
       <div class="content__example-space-bar">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, dolorum exercitationem temporibus labore alias veritatis ipsam modi rem praesentium? Doloremque animi aspernatur mollitia? Amet, laudantium. Iure, tempora dolor aliquam ullam laborum magnam earum, id quod tenetur eligendi perspiciatis asperiores? Sed.
+        <p>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. <span class="text-bold">Curabitur et ligula. Ut molestie a, ultricies porta urna.</span> Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis. <span class="text-accent">Nulla imperdiet sit amet magna »</span></p>
       </div>
 
       <div class="content__before-basic-rules">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis aspernatur incidunt nostrum accusantium? Quasi temporibus soluta eius aperiam ratione, doloribus deleniti placeat necessitatibus voluptatem sunt dolore non, vel illo, aut accusantium labore! Dolores, iusto! Necessitatibus vitae odit doloribus error officiis molestiae laudantium corrupti quidem sunt!</p>
       </div>
       <div class="content__basic-rules media">
-        <div class="media-left media-middle">
+        <div class="media-left media-top">
           <a href="#">
             <img class="media-object" src="./assets/image/paragraph.svg" alt="Paragraph mark">
           </a>
@@ -183,10 +185,10 @@
           </ul>
         </div>
       </div>
-      <div class="content__space-bar-bottom">
+      <div class="content__space-bar-bottom border-utilities">
         <div class="media-left media-middle">
           <a href="#">
-            <img class="media-object" src="./assets/image/second-content-image.png" alt="Womane with glass">
+            <img class="media-object" src="./assets/image/second-content-image.png" alt="Man with glass">
           </a>
         </div>
         <div class="media-body">
@@ -196,17 +198,17 @@
       </div>
       <div class="content__btn-group">
         <div class="btn-group" role="group" aria-label="...">
-          <button type="button" class="btn btn-default">Zarządzanie szkołą</button>
-          <button type="button" class="btn btn-default">Awans zawodowy</button>
-          <button type="button" class="btn btn-default">ZUS</button>
-          <button type="button" class="btn btn-default">Organizacja pracy szkoły</button>
-          <button type="button" class="btn btn-default">Zarządzanie szkołą</button>
-          <button type="button" class="btn btn-default">Pomoc psychologiczno-pedagogiczna</button>
-          <button type="button" class="btn btn-default">Zarządzanie szkołą</button>
-          <button type="button" class="btn btn-default">Awans zawodowy</button>
-          <button type="button" class="btn btn-default">ZUS</button>
-          <button type="button" class="btn btn-default">Organizacja pracy szkoły</button>
-          <button type="button" class="btn btn-default">ZUS</button>
+          <button type="button" class="btn btn-default"><a href="#">Zarządzanie szkołą</a></button>
+          <button type="button" class="btn btn-default"><a href="#">Awans zawodowy</a></button>
+          <button type="button" class="btn btn-default"><a href="#">ZUS</a></button>
+          <button type="button" class="btn btn-default"><a href="#">Organizacja pracy szkoły</a></button>
+          <button type="button" class="btn btn-default"><a href="#">Zarządzanie szkołą</a></button>
+          <button type="button" class="btn btn-default"><a href="#">Pomoc psychologiczno-pedagogiczna</a></button>
+          <button type="button" class="btn btn-default"><a href="#">Zarządzanie szkołą</a></button>
+          <button type="button" class="btn btn-default"><a href="#">Awans zawodowy</a></button>
+          <button type="button" class="btn btn-default"><a href="#">ZUS</a></button>
+          <button type="button" class="btn btn-default"><a href="#">Organizacja pracy szkoły</a></button>
+          <button type="button" class="btn btn-default"><a href="#">ZUS</a></button>
         </div>
       </div>
       <div aria-label="...">
@@ -216,7 +218,7 @@
         </ul>
       </div>
       <div class="content__similar-article-first">
-        <div class="media-left media-middle">
+        <div class="media-left media-top">
           <a href="#">
             <img class="media-object" src="./assets/image/article-photo.png" alt="Article photo">
           </a>
@@ -225,11 +227,11 @@
           <h4 class="media-heading">12 kroków do uzyskania stopnia nauczyciela kontraktowego po zakończeniu stażu
           </h4>
           <p>Nauczyciele stażyści, który z końcem maja zakończyli staż, mają 30 dni na złożenie sprawozdania z jego realizacji. Złożenie wniosku o wszczęcie postępowania kwalifikacyjnego do 30 czerwca...</p>
-          <p>Jan Kowalski – 1 czerwca 2015 – Analizy i intereptacje</p>
+          <p class="similar-article-autor">Jan Kowalski – 1 czerwca 2015 – Analizy i intereptacje</p>
         </div>
       </div>
       <div class="content__similar-article-second">
-        <div class="media-left media-middle">
+        <div class="media-left media-top">
           <a href="#">
             <img class="media-object" src="./assets/image/article-photo.png" alt="Article photo">
           </a>
@@ -238,11 +240,11 @@
           <h4 class="media-heading">12 kroków do uzyskania stopnia nauczyciela kontraktowego po zakończeniu stażu
           </h4>
           <p>Nauczyciele stażyści, który z końcem maja zakończyli staż, mają 30 dni na złożenie sprawozdania z jego realizacji. Złożenie wniosku o wszczęcie postępowania kwalifikacyjnego do 30 czerwca...</p>
-          <p>Jan Kowalski – 1 czerwca 2015 – Analizy i intereptacje</p>
+          <p class="similar-article-autor">Jan Kowalski – 1 czerwca 2015 – Analizy i intereptacje</p>
         </div>
       </div>
       <div class="content__similar-article-third">
-        <div class="media-left media-middle">
+        <div class="media-left media-top">
           <a href="#">
             <img class="media-object" src="./assets/image/article-photo.png" alt="Article photo">
           </a>
@@ -251,22 +253,23 @@
           <h4 class="media-heading">12 kroków do uzyskania stopnia nauczyciela kontraktowego po zakończeniu stażu
           </h4>
           <p>Nauczyciele stażyści, który z końcem maja zakończyli staż, mają 30 dni na złożenie sprawozdania z jego realizacji. Złożenie wniosku o wszczęcie postępowania kwalifikacyjnego do 30 czerwca...</p>
-          <p>Jan Kowalski – 1 czerwca 2015 – Analizy i intereptacje</p>
+          <p class="similar-article-autor">Jan Kowalski – 1 czerwca 2015 – Analizy i intereptacje</p>
         </div>
       </div>
     </div>
     <div class="main-sidebar col-md-4">
       <div class="main-sidebar__links-wrapper">
         <h4>Przydatne Linki</h4>
-        <div class="underline"></div>
+        <div class="underline">
+        </div>
         <div class="main-sidebar__links">
           <ul>
-            <li>Mapa geodezyjna Polski »</li>
-            <li>Jakiś link dodatkowy »</li>
-            <li>Mapa geodezyjna Polski »</li>
-            <li>Jakiś link dodatkowy »</li>
-            <li>Mapa geodezyjna Polski »</li>
-            <li>Jakiś link dodatkowy »</li>
+            <li><a href="#">Mapa geodezyjna Polski <span class="links-accent">»</span></a></li>
+            <li><a href="#">Jakiś link dodatkowy <span class="links-accent">»</span></a></li>
+            <li><a href="#">Mapa geodezyjna Polski <span class="links-accent">»</span></a></li>
+            <li><a href="#">Jakiś link dodatkowy <span class="links-accent">»</span></a></li>
+            <li><a href="#">Mapa geodezyjna Polski <span class="links-accent">»</span></a></li>
+            <li><a href="#">Jakiś link dodatkowy <span class="links-accent">»</span></a></li>
           </ul>
         </div>
       </div>
@@ -276,8 +279,8 @@
         <img src="./assets/image/last-number.png" alt="Last article">
         <div class="main-sidebar__last-number-info">
           <h4>PAŹDZIERNIK 2017 już w sprzedaży</h4>
-          <button>Archiwalne numery</button>
-          <button>Zamów prenumerate</button>
+          <button class="btn-first-last-number">Archiwalne numery</button>
+          <button class="btn-second-last-number">Zamów prenumerate</button>
         </div>
       </div>
       <div class="main-sidebar__hot-topics">
@@ -292,22 +295,31 @@
           </div>
         </div>
         <ul>
-          <li>Procedura obniżenia wymiaru etatu nauczyciela zatrudnionego w pełnym wymiarze godzi »</li>
-          <li>Procedura obniżenia wymiaru etatu nauczyciela zatrudnionego w pełnym wymiarze godzi »</li>
-          <li>Procedura obniżenia wymiaru etatu nauczyciela zatrudnionego w pełnym wymiarze godzi »</li>
+          <li>Procedura obniżenia wymiaru etatu nauczyciela zatrudnionego w pełnym wymiarze godzi <span class="links-accent">»</span></li>
         </ul>
-        <p>Czytaj więcej tematów »</p>
+        <div class="links-underline"></div>
+        <ul>
+          <li>Procedura obniżenia wymiaru etatu nauczyciela zatrudnionego w pełnym wymiarze godzi <span class="links-accent">»</span></li>
+        </ul>
+        <div class="links-underline"></div>
+        <ul>
+          <li>Procedura obniżenia wymiaru etatu nauczyciela zatrudnionego w pełnym wymiarze godzi <span class="links-accent">»</span></li>
+        </ul>
+        <div class="links-underline"></div>
+        <p class="main-sidebar__hot-topics-more-info">Czytaj więcej tematów »</p>
       </div>
       <div class="main-sidebar__newslatter">
         <div class="newslatter-hero-image image-utilities">
           <div class="newslatter-hero-text">
-            <h4>Zapisz się na bezpłatny newslatter</h4>
-            <input type="text" name="" id=""><button>Zapisz się</button>
-            <div>
-              <input type="checkbox" name="" id=""><label>Znam i akceptruję regulamin i coś tam regulamin</label>
-            </div>
-            <div>
-              <input type="checkbox" name="" id=""><label>Wyrażam zgodnę na przetwarzenie regulamin rozwiń</label>
+            <div class="first-part-text">
+              <h4>Zapisz się na bezpłatny newslatter</h4>
+              <input type="text" name="" id=""><button>Zapisz się</button>
+              <div>
+                <input type="checkbox" name="" id=""><label>Znam i akceptruję regulamin i coś tam regulamin</label>
+              </div>
+              <div>
+                <input type="checkbox" name="" id=""><label>Wyrażam zgodnę na przetwarzenie regulamin rozwiń</label>
+              </div>
             </div>
             <div class="newslatter-image">
               <div class="media">
@@ -330,83 +342,92 @@
       </div>
     </div>
   </div>
-  <div class="container footer">
-    <div class="col-md-2">
-      <h3>Baza wiedzy</h3>
-      <ul>
-        <li>Porady</li>
-        <li>Aktualności</li>
-        <li>Orzecznictwo</li>
-        <li>Kody CPV</li>
-        <li>Wzory dokumentów</li>
-        <li>Szkolenia wideo</li>
-      </ul>
-    </div>
-    <div class="col-md-2">
-      <h3>Dokumentacja</h3>
-      <ul>
-        <li>Przetargi</li>
-        <li>Porady</li>
-        <li>Aktualności</li>
-        <li>Orzecznictwo</li>
-        <li>Wzory dokumentów</li>
-        <li>Szkolenia wideo</li>
-      </ul>
-    </div>
-    <div class="col-md-4">
-      <h3>Centrum Obsługi Klienta</h3>
-      <p>	Infolinia 22 518 29 29</p>
-      <p>	cok@wip.pl</p>
-      <p>	faks 22 617 60 10</p>
-      <p>	WiedzaiPraktyka</p>
-      <h3>Adres do korespondencji</h3>
-      <p>Wydawnictwo Wiedza i Praktyka Sp. z o.o.</p>
-      <p>ul. Paderewskiego 167</p>
-      <p>05-070 Sulejówek</p>
-    </div>
-    <div class="col-md-4">
-      <h3>Wydawnictwo</br>
-        Wiedza i Praktyka Sp. z o.o.</h3>
-        <p>Siedziba</p>
-        <p>ul. Łotewska 9a,</p>
-        <p>03-918 Warszawa</p>
-        <p>NIP: 526-19-92-256</p>
-        <p>REGON: 011235225</p>
-        <p>KRS: 0000098264</p>
-        <p>Sąd Rejonowy dla m.st. Warszawy, Sąd Gospodarczy XIII Wydział Gospodarczy Rejestrowy,
-          Kapitał zakładowy: 200 000 zł.</p>
-    </div>
-    <div class="col-md-4">
-      <p>Here goes image!</p>
-    </div>
-    <div class="col-md-8">
-      <div class="btn-group">
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Baza wiedzy<span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu">
-          <li><a href="#">Action</a></li>
-          <li><a href="#">Another action</a></li>
-          <li><a href="#">Something else here</a></li>
-          <li role="separator" class="divider"></li>
-          <li><a href="#">Separated link</a></li>
+
+  <div class="container-fluid footer">
+    <div class="container">
+      <div class="col-md-2 footer__base-of-knowlage">
+        <h3>Baza wiedzy</h3>
+        <ul>
+          <li>Porady</li>
+          <li>Aktualności</li>
+          <li>Orzecznictwo</li>
+          <li>Kody CPV</li>
+          <li>Wzory dokumentów</li>
+          <li>Szkolenia wideo</li>
         </ul>
-        <span>Przegląd sprzętu</span>
-        <span>Dokumentacja</span>
-        <span>Akty prawne</span>
-        <span>Lista wydań</span>
+      </div>
+      <div class="col-md-2 footer__documentation">
+        <h3>Dokumentacja</h3>
+        <ul>
+          <li>Przetargi</li>
+          <li>Porady</li>
+          <li>Aktualności</li>
+          <li>Orzecznictwo</li>
+          <li>Wzory dokumentów</li>
+          <li>Szkolenia wideo</li>
+        </ul>
+      </div>
+      <div class="col-md-4 footer__customer-center">
+        <h3>Centrum Obsługi Klienta</h3>
+        <p><span class="glyphicon glyphicon-earphone"></span> Infolinia <a href="tel:22 518 29 29">22 518 29 29</a></p>
+        <p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:cok@wip.pl">cok@wip.pl</a></p>
+        <p><span class="glyphicon glyphicon-print"></span> faks <a href="fax:22 617 60 10">22 617 60 10</a></p>
+        <p>	WiedzaiPraktyka</p>
+        <h3>Adres do korespondencji</h3>
+        <p>Wydawnictwo Wiedza i Praktyka Sp. z o.o.</p>
+        <p>ul. Paderewskiego 167</p>
+        <p>05-070 Sulejówek</p>
+      </div>
+      <div class="col-md-4 footer__publisher">
+        <h3>Wydawnictwo</br>
+          Wiedza i Praktyka Sp. z o.o.</h3>
+          <p>Siedziba</p>
+          <p>ul. Łotewska 9a,</p>
+          <p>03-918 Warszawa</p>
+          <p>NIP: 526-19-92-256</p>
+          <p>REGON: 011235225</p>
+          <p>KRS: 0000098264</p>
+          <p>Sąd Rejonowy dla m.st. Warszawy, Sąd Gospodarczy XIII Wydział Gospodarczy Rejestrowy,
+            Kapitał zakładowy: 200 000 zł.</p>
       </div>
     </div>
-    <div class="col-md-8">
-      <div class="footer__image media">
-        <div class="media-left media-middle">
-          <a href="#">
-            <img class="media-object" src="..." alt="...">
-          </a>
+    <div class="container footer__logo">
+      <div class="col-md-4">
+        <img src="./assets/image/logo-footer.png" alt="Logo Geodezja">
+      </div>
+      <div class="col-md-8">
+        <div class="btn-group">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Baza wiedzy<span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+          <span>Przegląd sprzętu</span>
+          <span>Dokumentacja</span>
+          <span>Akty prawne</span>
+          <span>Lista wydań</span>
         </div>
-        <div class="media-body">
-          <h4 class="media-heading">2016 © Wydawnictwo Wiedza i PraktykaStrona używa plików cookies.</h4>
-          <p>Korzystając ze strony użytkownik wyraża zgodę na używanie plików cookies</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid under-footer">
+    <div class="container">
+      <div class="col-md-12">
+        <div class="footer__image media">
+          <div class="media-left media-top">
+            <a href="#">
+              <img class="media-object" src="./assets/image/wip-logo.svg" alt="Logo wiedza i praktyka">
+            </a>
+          </div>
+          <div class="media-body">
+            <h4 class="media-heading">2016 © Wydawnictwo Wiedza i PraktykaStrona używa plików cookies.</h4>
+            <p>Korzystając ze strony użytkownik wyraża zgodę na używanie <span class="links-accent">plików cookies</span></p>
+          </div>
         </div>
       </div>
     </div>

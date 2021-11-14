@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 361 13" width="361" height="13">
+	<title>Sidebar</title>
+	<defs>
+		<image  width="361" height="13" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWkAAAANBAMAAACZR4KFAAAAAXNSR0IB2cksfwAAABJQTFRF8X0A8X0A8X0A8X0A8X0A8X0AH5icgwAAAAZ0Uk5T//xgAAOfdx07FAAAAHpJREFUeJzV0MEJgDAMQNG4gQgOUFygNNlAOkDB/WexlFhsctBbkz/B5wH0lgO5tIKftuc6zD75DHtUGDvtJ5ouvq4xM3a4prz8b7hmbPPU4zVjm6cW1w3bPrW4btj2qeV1xXZALa8rtgNqdU3FAbW6xuyAWl+TA2qMN8twkLIsvx/NAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Sidebar">
+		<g id="Okladka">
+			<use id="Kształt 19 kopia" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>

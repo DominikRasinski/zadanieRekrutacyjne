@@ -1,56 +1,72 @@
-.main-sidebar__links ul{
+.main-sidebar__links ul {
     margin-left: 30px;
     font-size: 18px;
 }
-.main-sidebar__links ul li:nth-of-type(even){
+
+.main-sidebar__links ul li:nth-of-type(even) {
     background-color: #f7fafb;
 }
-.main-sidebar__links ul li{
+
+.main-sidebar__links ul li {
     list-style: none;
 }
 
-.main-sidebar__facebook img{
+.main-sidebar__facebook img {
     max-width: 100%;
 }
 
-.main-sidebar__last-number img{
+.main-sidebar__last-number img {
     padding: 20px;
 }
 
-.btn-first-last-number, 
-.btn-second-last-number{
+.btn-first-last-number,
+.btn-second-last-number {
     padding: 5px;
     border: none;
     font-weight: 700;
     font-size: 14px;
     color: #ffffff;
 }
-.btn-first-last-number{
+
+.btn-first-last-number {
     background-color: #2f5ab5;
 }
 
-.btn-second-last-number{
+.btn-second-last-number {
     background-color: #ff7815;
 }
-.main-sidebar__hot-topics-more-info{
+
+.main-sidebar__hot-topics-more-info {
     margin-top: 20px;
     text-align: right;
     color: #ff7109;
 }
-.main-sidebar__hot-topics ul{
+
+.main-sidebar__hot-topics ul {
     margin-left: 20px;
     list-style: none;
 }
-.main-sidebar__hot-topics li::before{
+
+.main-sidebar__hot-topics li::before {
     content: "\2022";
-    color: #25ad6e; 
+    color: #25ad6e;
     font-weight: bold;
     display: inline-block;
     width: 1em;
     margin-left: -1em;
 }
-.main-sidebar__hot-topics ul li{
+
+.main-sidebar__hot-topics ul li {
     margin: 10px 0 10px 0;
+}
+
+.main-sidebar__hot-topics .hero-text {
+    margin: 0 50px 0 20px;
+}
+
+.hero-text h4 {
+    width: 40%;
+    text-align: center;
 }
 
 /* Sidebar Hero Image */
@@ -66,8 +82,8 @@
 .hero-shadow {
     height: 100%;
     width: 100%;
-    background: rgb(17, 36, 36);
-    background: linear-gradient(0deg, rgba(17, 36, 36, 1) 0%, rgba(17, 36, 36, 1) 26%, rgba(49, 34, 3, 0.515919746804972) 83%);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 0) 0%, rgba(2, 12, 19, 0.4991130241158963) 45%);
 }
 
 .hero-text {
@@ -79,16 +95,20 @@
 .newslatter-hero-image {
     background-image: url('/assets/image/newslatter-background.png');
 }
-.first-part-text{
-    background-color:rgba(70, 83, 110, .7);
+
+.first-part-text {
+    background-color: rgba(70, 83, 110, .7);
 }
-.first-part-text h4{
+
+.first-part-text h4 {
     text-align: center;
 }
-.newslatter-hero-text{
+
+.newslatter-hero-text {
     color: #ffffff;
 }
-.newslatter-image{
+
+.newslatter-image {
     padding: 20px 15px 20px 15px;
     background-color: rgba(92, 106, 136, .7);
 }

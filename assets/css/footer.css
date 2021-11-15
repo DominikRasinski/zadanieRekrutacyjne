@@ -1,39 +1,61 @@
 /* footer */
 
-.footer{
+.footer {
     padding-top: 50px;
     border-top: 2px solid #2b3358;
-    background-color: #2b3358;
+    background: rgb(44, 52, 90);
+    background: linear-gradient(0deg, rgba(44, 52, 90, 1) 35%, rgba(75, 86, 138, 1) 95%);
     color: #ffffff;
 }
 
-.under-footer{
+.under-footer {
     background-color: #2f2f2f;
     color: #ffffff;
 }
-.footer__base-of-knowlage ul, 
-.footer__documentation ul{
+
+.footer__base-of-knowlage ul,
+.footer__documentation ul {
+    margin-top: 10px;
     margin-left: 20px;
     line-height: 2;
 }
-.footer__base-of-knowlage li{
+
+.footer__base-of-knowlage li {
     list-style-image: url('/assets/image/list-icon-image-knowlage.svg');
 }
-.footer__documentation li{
+
+.footer__documentation li {
     list-style-image: url('/assets/image/list-icon-image-documentation.svg');
 }
-.footer__base-of-knowlage h3{
+
+.footer__base-of-knowlage h3 {
     color: #ff842a;
 }
-.footer__documentation h3{
+
+.footer__documentation h3 {
     color: #77bdff;
 }
-.footer__logo{
+
+.footer__logo {
     margin-top: 40px;
     padding-bottom: 30px;
 }
-.under-footer{
+
+.under-footer {
     padding: 30px 0 30px 0;
     border-top: 1px solid #595959;
     line-height: 2;
+}
+
+.btn-footer-group {
+    font-size: 18px;
+}
+
+.btn-footer-group button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    font-size: 18px;
+    background-color: #ff842a;
+    color: #ffffff;
 }
